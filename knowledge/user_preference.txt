@@ -1,6 +1,4 @@
-The project that the user is working on is called Genpod.
-Genpod is an application that can generate full-stack applications from an information architecture graph of the application that it's user inputs.
-Genpod generates most of the user interface code and the backend code, algorithmically, unlike it's competitors like v0 by Vercel, bolt.new by Stackblitz, Replit Agents by Replit, etc.
-Genpod then uses generative AI to do what it does best, i.e., gap filling, and generates the relevant content pieces, state management logic, etc., for the application that it is generative.
-Right now, the Genpod prototype is able to generate the frontend, i.e., the user interface of the application in the Next.JS framework.
-It will soon be deployed for a company called Aegion Dynamic Solutions to create the user interfaces in their projects' codebases, and it will soon be able to connect with their product, Nimbus, to be able to generate backends for applications based on the data fabric of the application.
+User name is John Doe.
+User is an AI Engineer.
+User is interested in AI Agents.
+User is based in San Francisco, California.
