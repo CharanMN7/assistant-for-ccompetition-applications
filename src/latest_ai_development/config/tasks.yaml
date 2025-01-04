@@ -1,17 +1,23 @@
-research_task:
+extract_questions_task:
   description: >
-    Conduct a thorough research about {topic}
-    Make sure you find any interesting and relevant information given
-    the current year is 2024.
+    Parse the application form to extract and list all its questions.
   expected_output: >
-    A list with 10 bullet points of the most relevant information about {topic}
-  agent: researcher
+    A list of all questions in the application.
 
-reporting_task:
+simplify_questions_task:
   description: >
-    Review the context you got and expand each topic into a full section for a report.
-    Make sure the report is detailed and contains any and all relevant information.
+    Simplify each application question into smaller, actionable questions.
   expected_output: >
-    A fully fledge reports with the mains topics, each with a full section of information.
-    Formatted as markdown without '```'
-  agent: reporting_analyst
+    A structured list of simplified questions for each original application question.
+
+gather_user_responses_task:
+  description: >
+    Present each simplified question to the user one at a time to collect their answers.
+  expected_output: >
+    A collection of user answers corresponding to the simplified questions.
+
+generate_responses_task:
+  description: >
+    Use the collected user responses to generate well-crafted answers for the original application questions.
+  expected_output: >
+    A set of comprehensive and well-structured answers for the application questions.
